@@ -1,37 +1,43 @@
+/**
+ * A two-dimensional point class.
+ */
 public class Point2d {
-    /* двумерный класс точки.*/
-    //* координата X*/
+    
+    /** X coordinate of the point */
     private double xCoord;
-    //* координата Y*/
+    
+    /** Y coordinate of the point */
     private double yCoord;
-    //* Конструктор инициализации*/
+
+    /** Constructor to initialize point to (x, y) value. */
     public Point2d(double x, double y) {
         xCoord = x;
         yCoord = y;
     }
-    /* Конструктор по умолчанию.*/
+
+    /** No-argument constructor:  defaults to a point at the origin. */
     public Point2d() {
-        // Вызовите конструктор с двумя параметрами и определите источник.
+        // Call two-argument constructor and specify the origin.
         this(0, 0);
     }
-    /* Возвращение координаты X*/
+
+    /** Return the X coordinate of the point. */
     public double getX() {
         return xCoord;
     }
-    /* Возвращение координаты Y*/
+
+    /** Return the Y coordinate of the point. */
     public double getY() {
         return yCoord;
     }
-    /* Установка значения* координаты X.*/
+
+    /** Set the X coordinate of the point. */
     public void setX(double val) {
         xCoord = val;
     }
-    /* Установка значения* координаты Y.*/
+
+    /** Set the Y coordinate of the point. */
     public void setY(double val) {
         yCoord = val;
     }
-
-    // Point2d myPoint = new Point2d ();//создает точку (0,0)
-    // Point2d myOtherPoint = new Point2d (5,3);//создает точку (5,3)
-    // Point2d aThirdPoint = new Point2d ();
 }

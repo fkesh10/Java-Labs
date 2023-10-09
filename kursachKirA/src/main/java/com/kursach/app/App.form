@@ -62,7 +62,7 @@
                       </grid>
                     </constraints>
                     <properties>
-                      <text value="Бригада"/>
+                      <text value="Введите бригаду"/>
                     </properties>
                   </component>
                   <vspacer id="e0fbb">
